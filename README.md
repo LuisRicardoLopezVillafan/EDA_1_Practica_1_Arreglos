@@ -4,7 +4,7 @@ En esta práctica, exploraremos tres problemas clásicos que requieren tres enfo
 2. **Recorrido dirigido**: Navegar una matriz siguiendo un patrón geométrico.
 3. **Simulación**: Analizar el estado de una celda basándose en sus vecinos relativos.
 
-En este repositorio se encuentran tres archivos con terminación ".c". Estos contienen los esqueletos de los programas en lenguaje C sobre los que se debe de hacer la edición para obtener finalmente el código que resuelve el problema. 
+En este repositorio se encuentran tres archivos con terminación ".c". Estos contienen los esqueletos de los programas en lenguaje C sobre los que se debe de hacer la edición para obtener finalmente el código que resuelve el problema. Si se desea, se puede resolver alguno o todos los ejercicios en Python. Si es el caso, se tiene que generar el archivo con terminación ".py" y hacer el desarrollo correspondiente.
 
 **Nota importante:** Al final de cada esqueleto, hay una sección de preguntas teóricas que deben de ser contestadas junto con la entrega de la práctica. 
 
@@ -24,6 +24,7 @@ El juego se define por el siguiente conjunto de reglas:
 1. (Soledad) Si una celda "viva" tiene menos de 2 vecinos, muere.
 2. (Sobrepoblación) Si una celda viva tiene más de 3 vecinos vivos, muere.
 3. (Estabilidad) Si una celda viva tiene 2 ó 3 vecinos vivos, continúa viviendo.
+4. (Reproducción) Si una celda muerta tiene exactamente 3 vecinos vivos, entonces "nace" en el siguiente estado.
 
 ## Ejercicio 3. Autómatas celulares: El _juego de la vida_, de John H. Conway.
 Ideado por el matemático John Horton Conway en 1970, este no es un "juego" en el sentido tradicional (es un juego de cero jugadores), sino una simulación de vida artificial. En una rejilla infinita (o finita para nuestra práctica), cada celda puede estar "viva" o "muerta". El juego se define por el siguiente conjunto de reglas:
